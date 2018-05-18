@@ -43,3 +43,20 @@ echo "<h1>1. FORM HANDLING</h1>";
  */
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
+?>
+<!DOCTYPE html>
+    <html>
+<head>
+   </head>
+    <body>
+    <form action = "process.php" method="GET">
+ Name : <input type="text" name="name">
+ <br>
+ Project : <input type="text" name="project">
+ <br>
+ <button type="submit">Submit</button>
+ 
+ </form>
+ </body>
+ </html>
+ 
