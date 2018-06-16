@@ -43,4 +43,10 @@ Route::get('/greeting', function () {
     return view('greeting', ['name' => 'James', 'age' => '99']);
 });
 
-Route::view('/child', 'child');
+// Route::view('/child', 'child');
+// Route::get('/my-name', 'UserController@myName');
+
+Route::get('/user/{id}', 'UserController@getUser');
+Route::get('/users', 'UserController@users');
+
+Route::get('/raw', 'UserController@rawQuery');

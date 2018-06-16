@@ -3,6 +3,7 @@
 @section('sidebar') @parent
 
 <p>This is appended to the master sidebar.</p>
+<h1 class="text-red">Hello World</h1>
 @endsection
  
 @section('content')
